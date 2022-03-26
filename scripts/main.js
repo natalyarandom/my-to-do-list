@@ -1,14 +1,12 @@
-< !DOCTYPE html >
-    <html>
-        <head>
 
-            <h1>To do list</h1>
+<html>
+    <head>
 
-        </head>
+        <h1>To do list</h1>
 
-        <body>
+    </head>
 
-
+    <body>
 
 
 
@@ -16,7 +14,9 @@
 
 
 
-        </body>
+
+
+    </body>
 
 
 
@@ -24,4 +24,4 @@
 
 
 
-    </html>
+</html>

@@ -3,7 +3,7 @@ html{
 }
 
 .wrapper{
-    border: 3px solid tomato;
+    border: 3px solid green;
     width: 70%;
     height: 600px;
     /* margin: auto; */
