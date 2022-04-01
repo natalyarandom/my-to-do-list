@@ -10,11 +10,11 @@ html{
     margin: auto;
 }
 .header{
-    border: 3px solid tan;
+    border: 3px solid yellow;
     margin-top: 20px;
     padding-left: 30px;
 }
 
 .body {
-    border: 3px dotted rebeccapurple;
+    border: 3px dotted tomato;
 }
