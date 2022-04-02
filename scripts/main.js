@@ -1,14 +1,16 @@
-<html>
+< !DOCTYPE html >
 
-    <head>
+    <html>
 
-        <h1>My to do list</h1>
+        <head>
 
-    </head>
+            <h1>Daily planner</h1>
 
-    <body>
+        </head>
+
+        <body>
 
 
 
-    </body>
-</html>
+        </body>
+    </html>
