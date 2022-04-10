@@ -16,6 +16,11 @@ html {
     padding-left: 30px;
 }
 
+.wrapper .header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
 .head {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 80px;
@@ -24,4 +29,18 @@ html {
 
 .body {
     border: 3px dotted tomato;
+}
+
+.new-item {
+    margin: 10px auto 0;
+    width: fit-content;
+}
+
+.undone-list ul li {
+    background-color: chartreuse;
+    margin: 10px;
+}
+
+.undone-list ul {
+    list-style: none;
 }
