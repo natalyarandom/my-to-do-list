@@ -28,19 +28,34 @@ html {
 }
 
 .body {
-    border: 3px dotted tomato;
+    border: 3px;
+    width: auto;
+    height: 100px;
+    background-color: deeppink;
 }
 
 .new-item {
-    margin: 10px auto 0;
+
+    margin: 110px auto 0;
     width: fit-content;
+    border-style: solid;
+    border-color: crimson;
 }
 
+
+
 .undone-list ul li {
+
     background-color: chartreuse;
     margin: 10px;
+
 }
 
 .undone-list ul {
+    border-style: solid;
     list-style: none;
+    margin-top: 120px;
+    border-color: blue;
+    margin: 120 px 10 px 10px 10px;
+    width: fit-content;
 }
