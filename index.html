@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-list</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://kit.fontawesome.com/fa-solid fa-square-pen.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -19,7 +21,7 @@
         <div class="body">
 
             <div class="new-item">
-                <h4> New Todo: </h4>
+                <h4 class="h4 placeholder">New Todo:</h4>
                 <div class="placeholder">
 
                     <input type="text" placeholder="new to do item..." />
@@ -28,13 +30,14 @@
                 </div>
             </div>
         </div>
-
+        <i class="fa-solid fa-square-pen"></i>
         <div class="todo-list">
             <div class="undone-list">
 
                 <ul>
                     <li><input class="checkbox" type="checkbox">
                         <span class="description"> Feed the cat </span>
+                        <i class="fa-solid fa-square-pen"></i>
                     </li>
                     <li> <input class="checkbox" type="checkbox">
                         <span class="description"> Stay hydrated </span>

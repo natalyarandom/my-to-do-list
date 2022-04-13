@@ -15,6 +15,9 @@ html {
     background-color: rgb(197, 26, 197);
 }
 
+.h4 {
+    margin: 20px auto;
+}
 
 .new-item {
 
@@ -26,10 +29,13 @@ html {
 
 }
 
+
+
 .placeholder {
 
-    margin-top: 0px;
-    margin: 0px 15px;
+
+    margin: 20px auto;
+    width: 50%;
 }
 
 
@@ -37,7 +43,7 @@ html {
 
     background-color: rgb(121, 230, 13);
     margin: 10px;
-
+    border-style: dotted;
 }
 
 .undone-list ul {
@@ -46,5 +52,5 @@ html {
     margin-top: 120px;
     border-color: blue;
     margin: 120px 70px 10px 70px;
-    width: 350px;
+    width: 650px;
 }
