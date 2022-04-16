@@ -22,11 +22,12 @@
 
             <div class="new-item">
                 <h4 class="h4 placeholder">New Todo:</h4>
-                <div class="placeholder">
 
+                <div class="placeholder">
+                    <i class="fa-solid fa-square-pen"></i>
                     <input type="text" placeholder="new to do item..." />
 
-                    <button type="submit" style="color:deeppink;">Add</button>
+                    <button type="submit" style="background-color:deeppink; color: white">Add</button>
                 </div>
             </div>
         </div>
@@ -35,8 +36,11 @@
             <div class="undone-list">
 
                 <ul>
-                    <li><input class="checkbox" type="checkbox">
-                        <span class="description"> Feed the cat </span>
+                    <li>
+                        <p>Edit:<input type="text" placeholder="Feed the cat" />
+                            <button type="save-btn" style="color:deeppink; background-color: white">Save</button>
+                        </p>
+
                         <i class="fa-solid fa-square-pen"></i>
                     </li>
                     <li> <input class="checkbox" type="checkbox">
@@ -54,7 +58,7 @@
                     <li><input class="checkbox" type="checkbox"> <span class="description">Facial
                             exercises</span> </li>
                     </li>
-                    <button class="remove-btn" type="submit">Delete</button>
+
 
                 </ul>
 

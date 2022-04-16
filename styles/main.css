@@ -22,7 +22,6 @@ html {
 .new-item {
 
     border-style: solid;
-
     background-color: #fff;
     height: 90px;
     margin: -50px 70px 50px;
@@ -33,7 +32,6 @@ html {
 
 .placeholder {
 
-
     margin: 20px auto;
     width: 50%;
 }
@@ -42,8 +40,7 @@ html {
 .undone-list ul li {
 
     background-color: rgb(121, 230, 13);
-    margin: 10px;
-    border-style: dotted;
+    border-style: solid;
 }
 
 .undone-list ul {
