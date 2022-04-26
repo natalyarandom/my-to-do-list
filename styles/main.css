@@ -27,6 +27,20 @@ html {
     box-shadow: 10px 10px;
 }
 
+.p {
+    margin: 100px;
+}
+
+.input {
+    width: 400px;
+    margin: 0px 10px 0px 10px;
+}
+
+.edit {
+    margin: auto;
+    padding: 5px;
+}
+
 .placeholder {
     margin: 20px auto;
     width: 50%;
@@ -48,6 +62,11 @@ html {
     margin: 120px 70px 10px 70px;
     width: 650px;
     padding: 20px;
+}
+
+.undone-list li {
+    margin: auto;
+    padding: 10px;
 }
 
 .add-button {
