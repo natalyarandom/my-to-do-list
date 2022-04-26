@@ -26,10 +26,7 @@ html {
     height: 90px;
     margin: -50px 70px 50px;
     box-shadow: 10px 10px;
-
 }
-
-
 
 .placeholder {
 
@@ -37,12 +34,13 @@ html {
     width: 50%;
 }
 
-
 .undone-list ul li {
 
     background-color: rgb(121, 230, 13);
     border-style: solid;
     border-color: gray;
+    border-bottom-style: none;
+    margin: auto;
 }
 
 .undone-list ul {
@@ -52,4 +50,18 @@ html {
     border-color: blue;
     margin: 120px 70px 10px 70px;
     width: 650px;
+    padding: 20px;
+}
+
+.add-button {
+
+    background-color: rgb(255, 51, 176);
+    color: white;
+
+}
+
+.save-button {
+
+    color: rgb(255, 51, 176);
+    background-color: white;
 }

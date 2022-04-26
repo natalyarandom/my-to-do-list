@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-list</title>
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -25,50 +27,61 @@
                 <h4 class="h4 placeholder">New Todo:</h4>
 
                 <div class="placeholder">
-                    <i class="fa-solid fa-square-pen"></i>
-                    <input type="text" placeholder="new to do item..." />
 
-                    <button type="submit" style="background-color: rgb(255, 51, 176); color: white">Add</button>
+                    <input type="text" placeholder="new to do item..." />
+                    <button class="add-button" type="submit">Add</button>
+
                 </div>
             </div>
         </div>
-        <i class="fa-solid fa-square-pen"></i>
+
         <div class="todo-list">
             <div class="undone-list">
 
                 <ul>
                     <li>
+
                         <p>Edit:<input type="text" placeholder="Feed the cat" />
-                            <button type="save-btn"
-                                style="color: rgb(255, 51, 176); background-color: white">Save</button>
+                            <button class="save-button" type="save-btn">Save</button>
+
                         </p>
 
-                        <i class="fa-solid fa-square-pen"></i>
+
                     </li>
                     <li> <input class="checkbox" type="checkbox">
                         <span class="description"> Stay hydrated </span>
+                        <i class="fa-solid fa-square-pen"></i>
+                        <i class="fa-solid fa-trash-can"></i>
                     </li>
                     <li><input class="checkbox" type="checkbox">
                         <span class="description">Do morning exercises</span>
+                        <i class="fa-solid fa-square-pen"></i>
+                        <i class="fa-solid fa-trash-can"></i>
                     </li>
                     <li>
                         <input class="checkbox" type="checkbox">
                         <span class="description">Pack the lunch</span>
+                        <i class="fa-solid fa-square-pen"></i>
+                        <i class="fa-solid fa-trash-can"></i>
                     </li>
-                    <li><input class="checkbox" type="checkbox"> <span class="description">Walk your way
-                            home</span> </li>
+                    <li><input class="checkbox" type="checkbox">
+                        <span class="description">Walk your way
+                            home</span>
+                        <i class="fa-solid fa-square-pen"></i>
+                        <i class="fa-solid fa-trash-can"></i>
+                    </li>
                     <li><input class="checkbox" type="checkbox"> <span class="description">Facial
-                            exercises</span> </li>
+                            exercises</span>
+                        <i class="fa-solid fa-square-pen"></i>
+                        <i class="fa-solid fa-trash-can"></i>
+                    </li>
+
                     </li>
 
 
                 </ul>
 
-
-
                 <div class="done-list"></div>
-
-
 
                 <script src="./scripts/main.js"><h1>My to do list</h1>
                 </script>
