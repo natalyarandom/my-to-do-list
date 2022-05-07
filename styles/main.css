@@ -3,7 +3,7 @@ html {
 }
 
 .wrapper {
-    border: 3px solid green;
+
     width: 70%;
     height: 600px;
     margin: auto;
@@ -21,7 +21,7 @@ html {
     border-style: solid;
     background-color: #fff;
     height: 90px;
-    margin: -50px 70px 50px;
+    margin: -50px 100px 50px;
     box-shadow: 5px 5px 10px grey;
     width: 650px;
 }
@@ -57,10 +57,10 @@ html {
 }
 
 .undone-list ul {
-    border-style: solid;
+
     list-style: none;
     margin-top: 120px;
-    margin: 120px 70px 10px 70px;
+    margin: 70px 70px 10px 100px;
     width: 650px;
     padding: 20px;
 }
@@ -75,6 +75,7 @@ li .actions {
 
     width: 40px;
     display: inline-block;
+
 }
 
 .undone-list ul li:last-child {
