@@ -7,6 +7,7 @@ html {
     width: 70%;
     height: 600px;
     margin: auto;
+    box-shadow: 5px 7px 7px 5px grey;
 }
 
 .background {
@@ -15,16 +16,14 @@ html {
     background-color: rgb(255, 51, 176);
 }
 
-.h4 {
-    margin: 20px auto;
-}
 
 .new-item {
     border-style: solid;
     background-color: #fff;
     height: 90px;
     margin: -50px 70px 50px;
-    box-shadow: 10px 10px;
+    box-shadow: 5px 5px 10px grey;
+    width: 650px;
 }
 
 .p {
@@ -42,23 +41,25 @@ html {
 }
 
 .placeholder {
-    margin: 20px auto;
-    width: 50%;
+    margin: 20px 20px 20px 100px;
+    width: 100%;
 }
 
 .undone-list ul li {
-    background-color: rgb(121, 230, 13);
+    background-color: #fff;
     border-style: solid;
     border-color: gray;
     border-bottom-style: none;
     margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .undone-list ul {
     border-style: solid;
     list-style: none;
     margin-top: 120px;
-    border-color: blue;
     margin: 120px 70px 10px 70px;
     width: 650px;
     padding: 20px;
@@ -67,6 +68,22 @@ html {
 .undone-list li {
     margin: auto;
     padding: 10px;
+    flex: 1;
+}
+
+li .actions {
+
+    width: 40px;
+    display: inline-block;
+}
+
+.undone-list ul li:last-child {
+    border-bottom: solid gray;
+}
+
+.todo-item .title {
+    display: inline-block;
+    width: 90%;
 }
 
 .add-button {
@@ -74,7 +91,10 @@ html {
     color: white;
 }
 
+
+
 .save-button {
     color: rgb(255, 51, 176);
+    border-color: rgb(255, 51, 176);
     background-color: white;
 }
